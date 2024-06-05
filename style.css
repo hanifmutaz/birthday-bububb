@@ -6,7 +6,7 @@ body, html {
 
 body {
   margin: 0;
-  background-color: mistyrose;
+  background-color: rgb(0, 0, 0);
   position: relative;
   perspective: 800px;
   overflow: hidden;
@@ -25,16 +25,16 @@ body {
   transform-origin: right center;
   transition: transform 1s ease;
   font-family: "Allan", sans-serif;
-  color: #1F1F1F;
+  color: #c9c0c0;
 }
 
 .envelope .front, .envelope .back {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #FFF;
+  background-color: #302929;
   border-radius: 5px;
-  box-shadow: 0 0 30px -5px #fbc0b9eb;
+  box-shadow: 0 0 30px -5px #7c7372eb;
 }
 
 .envelope .front {
@@ -55,7 +55,7 @@ body {
   right: 10px;
   top: 10px;
   padding: 10px;
-  background: radial-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 4px, #f6f6df 4px, #f6f6df);
+  background: radial-gradient(rgba(239, 236, 236, 0) 0px, rgba(0, 0, 0, 0) 4px, #f6f6df 4px, #f6f6df);
   background-size: 20px 20px;
   background-position: -10px -10px;
 }
@@ -65,7 +65,7 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: #FFF;
+  background-color: #f9f7f7;
   border-radius: 2px;
 }
 
@@ -84,13 +84,13 @@ body {
   font-size: 30px;
   line-height: 20px;
   letter-spacing: 2px;
-  color: #ff969f;
+  color: #eed7d9;
 }
 
 .envelope .front .mail p:first-child {
   font-size: 50px;
   line-height: 50px;
-  color: #ff969f;
+  color: #dba8ac;
 }
 
 .envelope .front .mail p:last-child {
@@ -99,7 +99,7 @@ body {
 
 .envelope .back .letter p:nth-child(2) {
   font-size: 30px;
-  color: black;
+  color: rgb(5, 5, 5);
 }
 
 .envelope .back .letter p:nth-child(3) {
@@ -123,7 +123,7 @@ body {
 .envelope .back .flip:before {
   content: "";
   position: absolute;
-  background-color: #FFF;
+  background-color: #302929;
   box-shadow: 0px 0px 100px #f5c1bc52;
 }
 
@@ -195,7 +195,7 @@ body {
   left: 10px;
   width: 530px;
   height: 346.66667px;
-  background-color: #FFF;
+  background-color: #5b5757;
   border-radius: 5px;
   padding: 0 30px;
   box-sizing: border-box;
